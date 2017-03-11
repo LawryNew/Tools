@@ -1,0 +1,4 @@
+git clone https://github.com/D4Vinci/Dr0p1t-Framework && cd Dr0p1t-Framework
+pip3 install -r requirements.txt
+pip3 install -r windows_requirements.txt
+./Dr0p1t.py
