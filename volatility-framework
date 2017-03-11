@@ -1,0 +1,7 @@
+git clone https://github.com/volatilityfoundation/volatility && cd volatility
+pip install pycrypto && pip install distorm3
+python setup.py install
+python vol.py --info
+
+Upgrade:
+git pull
