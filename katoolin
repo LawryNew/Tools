@@ -1,0 +1,2 @@
+git clone https://github.com/LionSec/katoolin.git && cd katoolin/ &&
+sudo chmod +x katoolin.py && sudo ./katoolin.py
