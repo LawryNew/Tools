@@ -1,0 +1,9 @@
+git clone https://github.com/trustedsec/social-engineer-toolkit && cd social-engineer-toolkit
+python setup.py install
+setoolkit
+
+Update:
+git pull origin master
+
+sudo ./setup.py install
+setoolkit
