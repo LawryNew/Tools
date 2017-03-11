@@ -1,0 +1,4 @@
+git clone https://github.com/hatRiot/shellme && cd shellme
+python2 shellme.py -h
+python2 shellme.py -i 'jmp rbp' -a elf64
+python2 shellme.py -i 'mov eax,21\nadd ebp,eax\nxor eax,eax\njmp ebp'
