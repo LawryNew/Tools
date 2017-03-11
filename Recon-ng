@@ -1,0 +1,11 @@
+Installation - Kali Linux
+apt-get update && apt-get install recon-ng 
+
+Installation Using Source:
+git clone https://LaNMaSteR53@bitbucket.org/LaNMaSteR53/recon-ng.git
+cd recon-ng
+pip install -r REQUIREMENTS
+./recon-ng
+
+Upgrade:
+git pull origin master
