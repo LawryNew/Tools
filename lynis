@@ -1,0 +1,7 @@
+git clone https://github.com/CISOfy/lynis
+cd lynis
+./lynis audit system
+-----------------------------------------
+update
+cd <your lynis folder>
+git pull origin master
