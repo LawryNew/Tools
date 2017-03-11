@@ -1,0 +1,5 @@
+wget https://github.com/deltaxflux/fluxion/archive/0.23.tar.gz && tar xf 0.23.tar.gz
+ 
+git clone https://github.com/deltaxflux/fluxion && cd fluxion
+./Installer.sh
+./fluxion
