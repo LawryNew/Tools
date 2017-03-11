@@ -1,0 +1,17 @@
+git clone https://github.com/P0cL4bs/WiFi-Pumpkin.git
+cd WiFi-Pumpkin
+chmod +x installer.sh
+./installer.sh --install
+
+
+Update
+cd WiFi-Pumpkin
+git pull origin master
+
+then run
+wifipumpkin (ubuntu)
+wifi-pumpkin (kali 2.0)
+
+Debian/Ubuntu Binary;
+wget https://github.com/P0cL4bs/WiFi-Pumpkin/releases/download/v0.8.4/wifi-pumpkin-0.8.4-all.deb
+sudo dpkg -i wifi-pumpkin-0.8.4-all.deb
