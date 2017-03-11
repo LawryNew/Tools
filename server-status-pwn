@@ -1,0 +1,6 @@
+git clone https://github.com/mazen160/server-status_PWN && cd server-status_PWN
+pip install -r requirements.txt
+python server-status_PWN.py --url 'http://example.com/server-status'
+
+Update:
+git pull
