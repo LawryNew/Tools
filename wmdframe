@@ -1,0 +1,8 @@
+git clone https://github.com/ThomasTJdev/WMD
+pip3 install -r requirements.txt
+Before your first run, please adjust your environmentsettings in core/config.ini
+
+Start the console with: python3 wmd.py
+Start a single module: python3 wmd.py -m [CALL]
+Start webserver: python3 wmd.py -w
+Start without checking requirements: python3 wmd.py -nc
