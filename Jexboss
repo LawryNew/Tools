@@ -1,0 +1,15 @@
+git clone https://github.com/joaomatosf/jexboss.git
+cd jexboss
+pip install -r requires.txt
+python jexboss.py -h
+ 
+OR:
+ 
+Download the latest version at: https://github.com/joaomatosf/jexboss/archive/master.zip
+unzip master.zip
+cd jexboss-master
+pip install -r requires.txt
+python jexboss.py -h
+ 
+Upgrade with git:
+git pull origin master
