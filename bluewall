@@ -1,0 +1,5 @@
+git clone https://github.com/austin-taylor/bluewall && cd bluewall
+pip setup.py install
+cd bin
+python bw -h
+python bw -c configs/exampleconfig.ini
