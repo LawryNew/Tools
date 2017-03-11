@@ -1,0 +1,2 @@
+git clone https://github.com/m4ll0k/infoga && cd infoga
+python infoga.py -t mit.edu -s all (example)
