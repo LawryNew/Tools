@@ -1,0 +1,7 @@
+git clone https://github.com/cys3c/BLACKBOx- && cd blackbox && chmod +x install && sudo ./install && cd
+
+Upgrade:
+cd blackbox
+git pull origin master
+chmod +x install
+./install
