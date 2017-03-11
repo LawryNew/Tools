@@ -1,0 +1,2 @@
+git clone https://github.com/lightfaith/locasploit && cd locasploit
+./profiling.sh
