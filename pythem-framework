@@ -1,0 +1,9 @@
+sudo apt-get install libasound-dev libjack-jackd2-dev portaudio19-dev python-pyaudio build-essential python-dev libnetfilter-queue-dev libespeak1 libffi-dev libssl-dev
+sudo yum install libasound-dev libjack-jackd2-dev portaudio19-dev python-pyaudio build-essential python-dev libnetfilter-queue-dev libespeak1 libffi-dev libssl-dev
+packman install libasound-dev libjack-jackd2-dev portaudio19-dev python-pyaudio build-essential python-dev libnetfilter-queue-dev libespeak1 libffi-dev libssl-dev
+git clone https://github.com/m4n3dw0lf/PytheM && cd PytheM
+sudo pip install -r requirements.txt 
+python pythem.py -h
+
+Update:
+git pull origin master
