@@ -1,0 +1,5 @@
+git clone https://github.com/SafeBreach-Labs/pwndsh && cd pwndsh
+cd bin/
+./compile_pwnd_sh.sh
+ls -la pwnd.sh
+source pwnd.sh
