@@ -1,0 +1,6 @@
+sudo su
+curl https://raw.githubusercontent.com/Raikia/FiercePhish/master/installer.sh | bash
+
+wget https://raw.githubusercontent.com/Raikia/FiercePhish/master/installer.sh
+chmod +x installer.sh
+./installer.sh
