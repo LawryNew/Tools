@@ -1,0 +1,11 @@
+pip install configparser
+pip install path.py
+pep8
+isort
+
+modbus module full installation from scapy
+$ git clone https://github.com/secdev/scapy
+# you can also cloned the other repository with the command:
+# $ git clone https://github.com/thmsaurel/scapy
+$ cd scapy
+$ python setup.py install
