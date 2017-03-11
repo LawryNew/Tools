@@ -1,0 +1,6 @@
+git clone https://github.com/enddo/smod && cd smod
+python smod.py
+
+Update:
+cd smod
+git pull origin master
