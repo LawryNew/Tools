@@ -1,0 +1,57 @@
+git clone https://github.com/stasinopoulos/commix
+cd commix
+python commix.py -h (for helper)
+python commix.py --update (for update)
+
+# Usage
+
+# python commix.py [options]
+
+# Options
+
+ -h, --help            Show help and exit.
+ --verbose             Enable the verbose mode.
+ --install             Install 'commix' to your system.
+ --version             Show version number and exit.
+ --update              Check for updates (apply if any) and exit.
+
+# Target (define the target URL)
+
+ --url=URL           Target URL.
+ --url-reload        Reload target URL after command execution.
+
+# Request
+
+--method=METHOD     HTTP method (GET or POST).
+--host=HOST         HTTP Host header.
+--referer=REFERER   HTTP Referer header.
+--user-agent=AGENT  HTTP User-Agent header.
+--cookie=COOKIE     HTTP Cookie header.
+--headers=HEADERS   Extra headers (e.g. 'Header1:Value1\nHeader2:Value2').
+--proxy=PROXY       Use a HTTP proxy (e.g. '127.0.0.1:8080').
+--auth-url=AUTH_..  Login panel URL.
+--auth-data=AUTH..  Login parameters and data.
+--auth-cred=AUTH..  HTTP Basic Authentication credentials (e.g.'admin:admin')
+
+# Injection
+
+--param=PARAMETER   Parameter(s) to inject (use 'INJECT_HERE' tag).
+--suffix=SUFFIX     Injection payload suffix string.
+--prefix=PREFIX     Injection payload prefix string.
+--technique=TECH    Specify a certain injection technique : 'classic',
+                    'eval-based', 'time-based' or 'boolean-based'.
+--maxlen=MAXLEN     The length of the output on time-based technique
+                    (Default: 10000 chars).
+--delay=DELAY       Set Time-delay for time-based and boolean-based
+                    techniques (Default: 1 sec).
+--base64            Use Base64 (enc)/(de)code trick to prevent false-
+                    positive results.
+                    
+# Enumeration
+
+These options can be used, to enumerate the target host.
+
+--current-user  Retrieve current user.
+--hostname      Retrieve server hostname.
+--is-root       Check if the current user have root privs
+
