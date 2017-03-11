@@ -1,0 +1,4 @@
+git clone https://github.com/JacobMisirian/DblTekGoIPPwn && cd DblTekGoIPPwn
+./install.sh
+DblTekGoIPPwn --help
+DblTekGoIPPwn --send-commands cmds.txt --file list.txt --output results.txt
