@@ -1,0 +1,2 @@
+git clone https://github.com/4w4k3/Insanity-Framework && cd nsanity-Framework
+python insanity.py
