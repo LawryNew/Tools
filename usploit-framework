@@ -1,0 +1,6 @@
+git clone https://github.com/4shadoww/usploit && cd usploit
+./usploit (makesure all dependencies has been install)
+
+Update
+cd usploit
+git pull origin master
