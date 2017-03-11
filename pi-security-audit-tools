@@ -1,0 +1,12 @@
+Be sure git has been install on your windows system, then Open in cmdlet
+git clone https://github.com/osisoft/PI-Security-Audit-Tools
+cd PI-Security-Audit-Tools
+cd PI-Security-Audit-Tools/PISecurityAudit/
+Import-Module ./PISYSAUDIT.psd1
+Get-Command -Module PISYSAUDIT
+Get-Help piaudit
+
+Update:
+cd PI-Security-Audit-Tools [On Your Path]
+git pull
+Note this Module has been tested on Powershell v3.0
