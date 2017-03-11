@@ -1,0 +1,14 @@
+git clone https://github.com/nathanlopez/Stitch && cd Stitch
+# for Windows
+pip install -r win_requirements.txt
+
+# for Mac OSX
+pip install -r osx_requirements.txt
+
+# for Linux
+pip install -r lnx_requirements.txt
+
+python main.py or ./main.py
+
+upgrade:
+git pull
