@@ -1,0 +1,6 @@
+git clone --recursive https://github.com/xtiankisutsa/MARA_Framework && cd Mara_Framework
+sudo ./setup.sh
+sudo ./mara.sh
+
+Update
+sudo ./update.sh
