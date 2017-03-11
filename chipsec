@@ -1,0 +1,17 @@
+Clone chipsec Git repository and install it as a package:
+git clone https://github.com/chipsec/chipsec
+python setup.py install
+sudo chipsec_main
+To use CHIPSEC in place without installing it:
+python setup.py build_ext -i
+sudo python chipsec_main.py
+
+Clone chipsec Git repository and install it as a package:
+# git clone https://github.com/chipsec/chipsec
+# python setup.py install
+# sudo chipsec_main
+To use CHIPSEC in place without installing it:
+# python setup.py build_ext -i
+# sudo python chipsec_main.py
+
+NOTE: Please read chipsec-manual.pdf For Detail installation and Configuration.
