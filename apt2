@@ -1,0 +1,9 @@
+git clone https://github.com/MooseDojo/apt2 && cd apt2
+pip install python-nmap
+
+vi default.cfg (then edit them with your MSGRPC config)
+see https://help.rapid7.com/metasploit/Content/api-rpc/getting-started-api.html
+./apt2.py
+
+Upgrade:
+git pull origin master
