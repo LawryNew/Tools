@@ -1,0 +1,2 @@
+git clone https://github.com/intrd/nozzlr && cd nozzlr
+python nozzlr.py --help
