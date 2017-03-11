@@ -1,0 +1,13 @@
+git clone https://github.com/PowerScript/KatanaFramework.git
+cd KatanaFramework
+sudo sh dependencies
+sudo python install
+
+Update:
+git pull origin master
+
+ktf.update -f
+
+# Usage Command
+# sudo ./ktf.console x::ls -a
+# Gui: java -jar ktf.gui.jar
