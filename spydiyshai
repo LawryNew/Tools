@@ -1,0 +1,2 @@
+git clone https://github.com/Night46/spYDyishai && cd spYDyishai
+python spYDyishai.py --fh
