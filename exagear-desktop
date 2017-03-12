@@ -7,3 +7,10 @@ sudo  ./install-exagear.sh
 # To enter the guest x86 system use following command:
 # $ exagear
 
+# Manual Installation
+# sudo apt-get install bash coreutils findutils realpath curl binfmt-support cron
+# sudo dpkg -i exagear_<package_version>.deb
+# sudo dpkg -i exagear-guest-<package_version>.deb
+# sudo cp <your license key> /opt/exagear/lic
+# sudo /opt/exagear/bin/actool
+
