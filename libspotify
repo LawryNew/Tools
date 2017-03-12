@@ -1,1 +1,12 @@
+wget -q -O - http://apt.mopidy.com/mopidy.gpg | sudo apt-key add -
+
+# Add to /etc/apt/sources.list
+deb http://apt.mopidy.com/ stable main contrib non-free
+deb-src http://apt.mopidy.com/ stable main contrib non-free
+
+# Install
+sudo apt-get update
+sudo apt-get install libspotify6 libspotify-dev
+
+# Source
 git clone https://github.com/mopidy/libspotify-deb.git
