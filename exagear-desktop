@@ -1,0 +1,9 @@
+cd ~/Downloads/
+wget http://downloads.eltechs.com/exagear-desktop-v-1-5/exagear-desktop-rpi2.tar.gz
+tar -xvzpf exagear-desktop-rpi2.tar.gz
+sudo  ./install-exagear.sh
+# To force install the guest x86 Ubuntu run installation script with following option:
+# $ sudo ./install-exagear.sh ubuntu-1404
+# To enter the guest x86 system use following command:
+# $ exagear
+
