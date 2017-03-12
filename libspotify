@@ -6,7 +6,7 @@ deb-src http://apt.mopidy.com/ stable main contrib non-free
 
 # Install
 sudo apt-get update
-sudo apt-get install libspotify6 libspotify-dev
+sudo apt-get install libspotify12 libspotify-dev
 
 # Source
 git clone https://github.com/mopidy/libspotify-deb.git
