@@ -1,0 +1,12 @@
+$ sudo apt-get install ccache flex bison libnl-3-dev \
+  libnl-genl-3-dev libnl-route-3-dev libgeoip-dev \
+  libnetfilter-conntrack-dev libncurses5-dev liburcu-dev \
+  libnacl-dev libpcap-dev zlib1g-dev libcli-dev libnet1-dev
+
+$ git clone https://github.com/netsniff-ng/netsniff-ng && cd netsniff-ng
+sudo ./configure
+sudo make
+sudo make install
+ 
+Upgrade:
+sudo netsniff-ng -U
