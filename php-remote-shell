@@ -1,0 +1,21 @@
+git clone https://github.com/Strund3r/Attack-Shell
+copy on Lamp(Linux) / xampp(Windows)
+ 
+Run in a local Docker Container
+Run on terminal:
+$ docker run -d --name attack-shell strund3r/attack-shell
+ 
+If you want to use a php.ini, change the Dockerfile to:
+ 
+FROM php:7.0-apache
+ 
+MAINTAINER Franzwagner Ternus <franzwagner.str@gmail.com>
+ 
+COPY config/php.ini /usr/local/etc/php/
+COPY . /var/www/html
+ 
+Where config/ is the directory containing your php.ini file.
+ 
+Default Login
+Username: admin
+Password: 12345687
