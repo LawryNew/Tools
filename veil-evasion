@@ -1,0 +1,8 @@
+git clone https://github.com/Veil-Framework/Veil-Evasion.git
+cd veil-Evasion/
+cd setup
+sudo setup.sh -c
+
+# Update:
+# ./veil-evasion
+# typing update on your terminal
