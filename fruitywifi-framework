@@ -1,0 +1,6 @@
+git clone https://github.com/xtr4nge/FruityWifi.git && cd FruityWifi/ &&
+sudo chmod +x install-FruityWiFi-PHP7.sh &&
+sudo chmod +x install-modules.py &&
+sudo ./install-FruityWiFi-PHP7.sh &&
+sudo python install-modules.py install && cd .. &&
+sudo rm -rf FruityWifi/
