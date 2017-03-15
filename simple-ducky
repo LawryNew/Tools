@@ -1,0 +1,6 @@
+sudo git clone --recursive git://github.com/skysploit/simple-ducky.git /usr/share/simple-ducky
+sudo bash /usr/share/simple-ducky/install.sh
+sudo simple-ducky
+
+# Update
+sudo simple-ducky-update
