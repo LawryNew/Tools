@@ -1,0 +1,12 @@
+sudo apt-get install mingw32 (install requirement)
+git clone https://github.com/Screetsec/TheFatRat.git && cd TheFatRat
+cd setup
+sudo bash setup.sh
+sudo chmod +x fatrat
+./fatrat
+ 
+Note From Us:
+Before updating using git pull origin master
+please remove old fatrat & powerfull.sh : rm -f fatrat | rm -f powerfull.sh
+then typing on console:
+git pull origin master
